@@ -29,19 +29,25 @@
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Muhammad-Talha33/InternIntelligence_Movie_Website.git
+```
+```bash
 cd InternIntelligence_Movie_Website
+```
 
 ### 2. Install Dependencies
 ```bash
 npm install
+```
 
 ### 3. Set Up Environment Variables
 Create a .env.local file in the root directory and add your TMDB API key:
 ```bash
 NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key
+```
 You can obtain a free API key by creating an account at themoviedb.org.
 
 ### 4. Start the Development Server
 ```bash
 npm run dev
+```
 The app will be running at: http://localhost:3000
