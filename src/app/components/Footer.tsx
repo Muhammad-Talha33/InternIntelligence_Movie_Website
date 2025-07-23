@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-bold mb-4 text-white">Quick Links</h4>
-            <ul className="space-y-2 md:space-y-0 md:flex md:gap-4 text-white md:items-center ">
+            <ul className="space-y-2 md:space-y-0 md:flex md:gap-4 text-gray-400 md:items-center ">
               <li>
                 <Link
                   href="/"
