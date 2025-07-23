@@ -10,15 +10,15 @@ export default function Footer() {
           <div>
             <span className="flex gap-2">
               <Film className="h-8 w-8 text-blue-500" />
-              <h3 className="text-xl font-bold mb-4">CineVault</h3>
+              <h3 className="text-xl font-bold mb-4 text-white">CineVault</h3>
             </span>
-            <p>
+            <p className="text-gray-400 text-sm mb-4">
               Explore movies, watch trailers, and get full details all in one place.
             </p>
           </div>
           <div>
-            <h4 className="font-bold mb-4">Quick Links</h4>
-            <ul className="space-y-2 md:space-y-0 md:flex md:gap-4  md:items-center ">
+            <h4 className="font-bold mb-4 text-white">Quick Links</h4>
+            <ul className="space-y-2 md:space-y-0 md:flex md:gap-4 text-white md:items-center ">
               <li>
                 <Link
                   href="/"
@@ -46,7 +46,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
+        <div className="border-t border-gray-700 text-gray-400 mt-8 pt-6 text-center text-sm">
           <p>&copy; 2025 CineVault. All rights reserved.</p>
         </div>
       </div>
